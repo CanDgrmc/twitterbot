@@ -5,8 +5,8 @@ session_start();
 require 'twitteroauth/autoload.php';
 use Abraham\TwitterOAuth\TwitterOAuth;
 
-define("CONSUMER_KEY", "dBRdKrQXrXFWBf3cy6Srdw72Z");
-define("CONSUMER_SECRET", "oVo5wfbL7NOF4P9Mp86LudNnCoLk1nG9ZfSNkVlrEV8C3dcdCT");
+define("CONSUMER_KEY", "");
+define("CONSUMER_SECRET", "");
 define("OAUTH_CALLBACK","");
 if (!isset($_SESSION['access_token'])) {
 	$connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET);
